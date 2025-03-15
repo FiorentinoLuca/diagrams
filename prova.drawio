@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram id="Q9dCot33jnijPpSF1Kv5" name="Page-1">
-    <mxGraphModel dx="2924" dy="1901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,8 +114,8 @@
         </mxCell>
         <mxCell id="69" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-370.0000000000002" y="-750" as="targetPoint" />
-            <mxPoint x="-330" y="-750" as="sourcePoint" />
+            <mxPoint x="-352.17000000000024" y="-620" as="targetPoint" />
+            <mxPoint x="-312.17" y="-620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="70" value="1" style="edgeStyle=none;html=1;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="12" target="71" edge="1">
@@ -123,6 +123,15 @@
             <mxPoint x="-370" y="-690" as="targetPoint" />
             <mxPoint x="-490" y="-750" as="sourcePoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XIAONT5VpjIDFmDB2yyP-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="XIAONT5VpjIDFmDB2yyP-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-372.17" y="-535" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-372.17" y="-500" />
+              <mxPoint x="-242.17000000000002" y="-500" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="71" value="è libro" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -140,10 +149,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="74" value="una pubblicazione è o un articolo o&lt;br&gt;&amp;nbsp;un libro ma non entrambi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="-710" width="210" height="40" as="geometry" />
+          <mxGeometry x="-655" y="-630" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XIAONT5VpjIDFmDB2yyP-74" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="-730" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XIAONT5VpjIDFmDB2yyP-75" value="Associative&#xa;Entity" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-312.17" y="-580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XIAONT5VpjIDFmDB2yyP-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.704;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-244.41000000000003" y="-590" as="sourcePoint" />
+            <mxPoint x="-379.93" y="-576.3200000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-379.41" y="-590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XIAONT5VpjIDFmDB2yyP-79" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-222.17000000000002" y="-440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XIAONT5VpjIDFmDB2yyP-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.945;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XIAONT5VpjIDFmDB2yyP-75" target="XIAONT5VpjIDFmDB2yyP-79">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

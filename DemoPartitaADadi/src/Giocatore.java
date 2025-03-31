@@ -1,14 +1,21 @@
 
 public class Giocatore {
-	
+
 	/* Attributi */
+	
+	static private int conteggioDiGiocatori = 0;
+	
 	private String nominativo = "Guest_" + (conteggioDiGiocatori + 1);
 	private String nickname = nominativo;
+	
 	private Dado dado = new Dado(1, 6);
-	static private int conteggioDiGiocatori = 0;
 	
 	/* Costruttore */
 	
+	public Giocatore() {
+		conteggioDiGiocatori++;
+	}
+
 	public Giocatore(String nominativo_attuale, String nickname_attuale) {
 		
 		conteggioDiGiocatori++;

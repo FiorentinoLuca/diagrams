@@ -6,9 +6,10 @@ public class Dado
 	
 	/* Attributi */ 
 
-	int minimoValore;
-	int massimoValore;
-	Random generator = new Random();
+	private Random generator = new Random();
+	
+	private int minimoValore = 1;
+	private int massimoValore = 6;
 	
 	/* Costruttore */
 	
@@ -22,13 +23,7 @@ public class Dado
 			System.out.print("Ho appena creato un dado con minimo valore " + minimoValore);
 			System.out.println(" e massimo valore " + massimoValore);
 		}
-		
-		else 
-		{
-			minimoValore = 1;
-			massimoValore = 6;
-		}
-		
+
 	}
 	
 	/* Metodi */

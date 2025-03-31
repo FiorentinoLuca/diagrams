@@ -24,6 +24,8 @@ public class Partita_A_Dadi {
 		int lancioGiocatore1;
 		int lancioGiocatore2;
 		
+		System.out.println();
+
 		for (int i = 0; i < numeroDiTurni_attuale; i++) 
 		{
 			System.out.println("Turno " + (i + 1));

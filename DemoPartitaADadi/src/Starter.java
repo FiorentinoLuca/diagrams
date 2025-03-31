@@ -18,6 +18,11 @@ public class Starter {
 		p1 = Partita_A_Dadi.iniziaPartita(g1, g2, 10, g2.getDado());
 		System.out.println(p1);
 		p1 = null;
+
+		Giocatore g3 = new Giocatore();
+		p1 = Partita_A_Dadi.iniziaPartita(g3, g2, 5, g2.getDado());
+		System.out.println(p1);
+		p1 = null;
 		
 		System.out.println("Programma terminato correttamente");
 

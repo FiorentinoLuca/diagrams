@@ -99,7 +99,7 @@
           <mxGeometry y="276" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qnNC03m3wt7iX0uT-l6i-24" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Dado&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-850" y="180.46" width="230" height="172" as="geometry" />
+          <mxGeometry x="-850" y="180.46" width="230" height="198" as="geometry" />
         </mxCell>
         <mxCell id="qnNC03m3wt7iX0uT-l6i-25" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;- minimo: int&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(251, 251, 251), rgb(21, 21, 21)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px;&quot;&gt;&amp;nbsp;= 1&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="qnNC03m3wt7iX0uT-l6i-24" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -116,11 +116,14 @@
         <mxCell id="qnNC03m3wt7iX0uT-l6i-153" value="+ Dado(int, int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="qnNC03m3wt7iX0uT-l6i-24" vertex="1">
           <mxGeometry y="112" width="230" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="ECDCGFalfFIIVIR7924e-27" value="+ lancia(Dado): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="qnNC03m3wt7iX0uT-l6i-24">
+          <mxGeometry y="138" width="230" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="qnNC03m3wt7iX0uT-l6i-24" vertex="1">
-          <mxGeometry y="138" width="230" height="8" as="geometry" />
+          <mxGeometry y="164" width="230" height="8" as="geometry" />
         </mxCell>
         <mxCell id="18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="qnNC03m3wt7iX0uT-l6i-24" vertex="1">
-          <mxGeometry y="146" width="230" height="26" as="geometry" />
+          <mxGeometry y="172" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qnNC03m3wt7iX0uT-l6i-146" value="[1..N]" style="endArrow=open;html=1;endSize=6;startArrow=diamondThin;startSize=12;startFill=0;align=left;verticalAlign=bottom;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="qnNC03m3wt7iX0uT-l6i-28" edge="1">
           <mxGeometry x="0.2" y="25" relative="1" as="geometry">

@@ -6,7 +6,7 @@ public abstract class B implements A {
 		System.out.println("f1 di B");
 	}
 	
-	default void g() {
+	private void g() {
 		System.out.println("f2 di B");
 	}
 
